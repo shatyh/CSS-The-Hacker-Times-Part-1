@@ -5,7 +5,7 @@ body{
     font-family: Source Sans Pro;
 }
 
-main p:nth-child(1){
+main p{
 color: gray;
 }
 
@@ -15,7 +15,7 @@ color: gray;
     width: 700px;
     padding: 25px;
     border-radius: 15px;
-    
+    margin: 0 auto;
 }
 
 h1{
@@ -48,6 +48,10 @@ h5{
     font-weight:bolder;
 }
 
-.more-articles{
-    display: inline-block;
+.more-articles p{
+    color:gray;
+}
+
+h4.more-articles{
+    font-family: Source Sans Pro;
 }
